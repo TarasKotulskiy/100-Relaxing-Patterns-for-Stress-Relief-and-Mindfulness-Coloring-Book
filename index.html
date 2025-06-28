@@ -49,7 +49,10 @@
     }
 
     .tavio-kinnet {
-      size: 1rem;
+      max-width: 100%;     /* фото не выйдет за пределы контейнера */
+      height: auto;        /* сохраняет пропорции */
+      width: 300px;        /* базовая ширина — можно менять */
+      display: block;      /* убирает нижний отступ у inline-img */
       margin-bottom: 10px;
       border-radius: 400px;
     }
