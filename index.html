@@ -49,13 +49,14 @@
       box-shadow: 0 6px 20px rgba(108, 99, 255, 0.4);
     }
 
-    .Cover-100-Relaxing Patterns {
-      max-width: 100%;     /* фото не выйдет за пределы контейнера */
-      height: 70px;        /* сохраняет пропорции */
-      width: 50px;        /* базовая ширина — можно менять */
-      display: block;      /* убирает нижний отступ у inline-img */
-      margin-bottom: 10px;
-      border-radius: 400px;
+    .Cover-100-Relaxing-Patterns {
+  width: 500px;          /* ширина фото */
+  height: 500px;         /* висота фото */
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 400px;  /* для кола можна навіть 50% */
+  object-fit: cover;     /* щоб не спотворювалося */
+  max-width: 100%;       /* фото не виходить за межі контейнера */
     }
   </style>
 </head>
@@ -66,6 +67,7 @@
   <a class="download-btn" href="Watermarks for 100 Relaxing Patterns for Stress Relief and Mindfulness.pdf" download="Watermarks for 100 Relaxing Patterns for Stress Relief and Mindfulness.pdf">📥 Download PDF</a>
 </body>
 </html>
+
 
 
 
